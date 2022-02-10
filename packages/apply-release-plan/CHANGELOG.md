@@ -1,5 +1,11 @@
 # @changesets/apply-release-plan
 
+## 5.0.5
+
+### Patch Changes
+
+- [#749](https://github.com/changesets/changesets/pull/749) [`d14cf79`](https://github.com/changesets/changesets/commit/d14cf79fd323529c6fe6ca956d9a7fda93bb425b) Thanks [@Andarist](https://github.com/Andarist)! - Fixed an issue that caused **created** CHANGELOG files not being formatted in the same way as the **updated** ones (this could happen when calling `changeset version` for the very first time for a package).
+
 ## 5.0.4
 
 ### Patch Changes
